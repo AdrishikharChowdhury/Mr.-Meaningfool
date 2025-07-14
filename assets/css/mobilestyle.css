@@ -1,0 +1,130 @@
+/* Tablet screens (≤ 900px) */
+@media (max-width: 900px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .heading{
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .subheading{
+        font-size: 1rem;
+    }
+
+    .dictionary-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #phonetic-heading,#meaning-heading{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .meaning-pop, #phonetic-text, .box-heading{
+        font-size: 1.2rem;
+    }
+
+    .def-text, .def-example, .box-text{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #phonetic-audio{
+        font-size: 1rem;
+    }
+
+    #info{
+        width: 100%;
+    }
+}
+
+/* Mobile screens (≤ 600px) */
+@media (max-width: 600px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .heading{
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .subheading{
+        font-size: 1rem;
+    }
+
+    .dictionary-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #phonetic-heading,#meaning-heading{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .meaning-pop, #phonetic-text, .box-heading{
+        font-size: 1.2rem;
+    }
+
+    .def-text, .def-example, .box-text{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #phonetic-audio{
+        font-size: 1rem;
+    }
+
+    #info{
+        width: 100%;
+    }
+}
+
+
+/* Extra Small Devices (≤ 400px) */
+@media (max-width: 500px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .heading{
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .subheading{
+        font-size: 1rem;
+    }
+
+    .dictionary-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #phonetic-heading,#meaning-heading{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .meaning-pop, #phonetic-text, .box-heading{
+        font-size: 1.2rem;
+    }
+
+    .def-text, .def-example, .box-text{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #phonetic-audio{
+        font-size: 1rem;
+    }
+
+    #info{
+        width: 100%;
+    }
+}
+
