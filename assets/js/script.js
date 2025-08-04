@@ -127,6 +127,8 @@ const wordMeaning = async (e) => {
         throw new Error(data.title || "Word not found");
     }
     } catch (error) {
+    phonetics.innerHTML="";
+    meanings.innerHTML="";
     info.style.backgroundImage = `url(./assets/images/20064239_6199763.svg)`;
     info.style.height = "20rem";
     info.style.width = "100%";
